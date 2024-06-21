@@ -1,0 +1,10 @@
+^C:\USERS\GABRI\ONEDRIVE\ÁREA DE TRABALHO\ALMADEN-CAC\BUILD\CMAKEFILES\0B2BA8B64D2C9057368BDAE8060CAC6B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/gabri/OneDrive/Área de Trabalho/almaden-cac" "-BC:/Users/gabri/OneDrive/Área de Trabalho/almaden-cac/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/gabri/OneDrive/Área de Trabalho/almaden-cac/build/almaden-cac.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\GABRI\ONEDRIVE\ÁREA DE TRABALHO\ALMADEN-CAC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/gabri/OneDrive/Área de Trabalho/almaden-cac" "-BC:/Users/gabri/OneDrive/Área de Trabalho/almaden-cac/build" --check-stamp-file "C:/Users/gabri/OneDrive/Área de Trabalho/almaden-cac/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

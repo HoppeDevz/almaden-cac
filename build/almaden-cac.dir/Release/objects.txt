@@ -1,0 +1,2 @@
+C:/Users/gabri/OneDrive/Área de Trabalho/almaden-cac/build/almaden-cac.dir/Release/chrome.obj
+C:/Users/gabri/OneDrive/Área de Trabalho/almaden-cac/build/almaden-cac.dir/Release/edge.obj
